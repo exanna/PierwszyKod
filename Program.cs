@@ -27,9 +27,6 @@ internal class Program
         // Pobieranie wartości od użytkownika i parsowanie na liczbę całkowitą
         Int32 a = Int32.Parse(args[0]);
         Int32 b = Int32.Parse(args[1]);
-        Console.WriteLine($"Suma {a} + {b} = {a + b}");
-
-        
-
+        Console.WriteLine($"Suma {a} + {b} = {a + b}");   
     }
 }
